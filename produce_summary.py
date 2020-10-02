@@ -7,7 +7,7 @@ for line in the_file:
     melon = words[0]
     count = words[0]
     amount = words[0]
-    print(f"Delivered {melon} {count}s for total of ${words}")
+    print(f"Delivered {count} {melon}s for total of ${amount}")
 
 the_file.close()
 
@@ -21,7 +21,7 @@ for line in the_file:
     melon = words[0]
     count = words[0]
     amount = words[0]
-    print(f"Delivered {melon} {count}s for total of ${words}")
+    print(f"Delivered {count} {melon}s for total of ${amount}")
 
 the_file.close()
 
@@ -35,6 +35,6 @@ for line in the_file:
     melon = words[0]
     count = words[0]
     amount = words[0]
-    print(f"Delivered {melon} {count}s for total of ${words}")
+    print(f"Delivered {count} {melon}s for total of ${amount}")
 
 the_file.close()
