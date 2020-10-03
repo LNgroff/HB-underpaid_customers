@@ -1,3 +1,11 @@
+
+
+def melon_delivery(day, file):
+# Take a day and it's file to create a produce report
+    
+    for line in file:
+
+
 print("Day 1")
 the_file = open("um-deliveries-20140519.txt")
 for line in the_file:
@@ -38,3 +46,4 @@ for line in the_file:
     print(f"Delivered {count} {melon}s for total of ${amount}")
 
 the_file.close()
+
